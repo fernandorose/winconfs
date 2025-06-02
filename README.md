@@ -1,3 +1,3 @@
-<h1 aling="cenger">
+<h1 align="center">
   Windows terminal configs
 </h1>

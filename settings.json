@@ -76,7 +76,7 @@
         "guid": "{e50389a8-4e2a-4fd6-bde2-a2e15044d701}",
         "hidden": false,
         "name": "Bash",
-        "startingDirectory": "%USERPROFILE%/work"
+        "startingDirectory": "%USERPROFILE%/work/intranet_backend"
       }
     ]
   },

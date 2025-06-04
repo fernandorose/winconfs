@@ -42,7 +42,7 @@
       },
       "opacity": 100,
       "padding": "5",
-      "scrollbarState": "hidden",
+      "scrollbarState": "visible",
       "startingDirectory": "%USERPROFILE%/work",
       "useAcrylic": false
     },

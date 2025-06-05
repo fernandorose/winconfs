@@ -36,7 +36,7 @@
       "cursorShape": "filledBox",
       "experimental.retroTerminalEffect": false,
       "font": {
-        "face": "Cascadia Code",
+        "face": "Source Code Pro",
         "size": 10,
         "weight": "normal"
       },

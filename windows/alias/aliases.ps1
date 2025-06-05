@@ -13,7 +13,7 @@ function gs { git status }
 function gc { git commit @args }
 function gp { git push }
 Set-Alias l Get-ChildItem
-Set-Alias ll Get-ChildItem -Force -Recurse
+Set-Alias ll Get-ChildItem -Force
 '@
 
 # Agrega el contenido al final del perfil

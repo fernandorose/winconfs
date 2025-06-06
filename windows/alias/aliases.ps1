@@ -13,7 +13,12 @@ function gs { git status }
 function gc { git commit @args }
 function gp { git push }
 function .. { Set-Location .. }	
-function c {code}
+function c {code .}
+function run {pnpm run dev}
+function start {pnpm run start}
+function dcu {docker-compose up}
+function dcd {docker-compose down -v}
+function add {pnpm add @args}
 Set-Alias l Get-ChildItem
 Set-Alias ll Get-ChildItem -Force
 '@

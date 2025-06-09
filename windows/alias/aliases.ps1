@@ -19,6 +19,9 @@ function start {pnpm run start}
 function dcu {docker-compose up}
 function dcd {docker-compose down -v}
 function add {pnpm add @args}
+function clone {git clone @args}
+function ginit {git init}
+function pinit {pnpm init}
 Set-Alias l Get-ChildItem
 Set-Alias ll Get-ChildItem -Force
 '@

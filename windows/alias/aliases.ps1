@@ -23,6 +23,7 @@ function gc {git checkout @args}
 function gcb {git checkout -b @args}
 function gs { git status }
 function gp { git push }
+function gcl { git clone @args }
 Set-Alias l Get-ChildItem
 Set-Alias ll Get-ChildItem -Force
 '@

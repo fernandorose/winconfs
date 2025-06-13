@@ -9,9 +9,6 @@ if (-not (Test-Path -Path $PROFILE)) {
 
 # Contenido que se escribirá (reemplazará lo anterior)
 $content = @'
-function gs { git status }
-function gc { git commit @args }
-function gp { git push }
 function .. { Set-Location .. }	
 function c {code .}
 function run {pnpm run dev}
@@ -22,6 +19,10 @@ function add {pnpm add @args}
 function clone {git clone @args}
 function ginit {git init}
 function pinit {pnpm init}
+function gc {git checkout @args}
+function gcb {git checkout -b @args}
+function gs { git status }
+function gp { git push }
 Set-Alias l Get-ChildItem
 Set-Alias ll Get-ChildItem -Force
 '@

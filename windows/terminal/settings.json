@@ -36,7 +36,7 @@
       "cursorShape": "filledBox",
       "experimental.retroTerminalEffect": false,
       "font": {
-        "face": "cousine nerd font",
+        "face": "fira code",
         "size": 10,
         "weight": "normal"
       },

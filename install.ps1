@@ -21,7 +21,7 @@ function AliasesConfigs {
 function .. { Set-Location .. }	
 function c {code .}
 function run {pnpm run dev}
-function start {pnpm run start}
+function rstart {pnpm run start}
 function dcu {docker-compose up}
 function dcd {docker-compose down -v}
 function add {pnpm add @args}
